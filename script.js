@@ -5,7 +5,7 @@ const totalImages = 30; // 30 imágenes
 const imageContainer = document.getElementById('image-container');
 
 // Array de rutas de imágenes (asegúrate de tener todas las imágenes en la carpeta 'img')
-const imag = [
+const img = [
   '/img/imagen1.jpg',
   'https://drive.google.com/file/d/1LVCB6pMbzwaAntzCYkLReT6t_lth0kG9/view?usp=drive_link',
   'https://drive.google.com/file/d/1uxveS-t31DqjOul6VomC4Uof5a-2LWFi/view?usp=drive_link',
