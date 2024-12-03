@@ -7,7 +7,7 @@ const imageContainer = document.getElementById('image-container');
 // Array de rutas de imágenes (asegúrate de tener todas las imágenes en la carpeta 'img')
 const imageURLs = [
   'https://resizing.flixster.com/tVxlLIi1Wq0w_b86S5hlxOLxzIU=/fit-in/352x330/v2/https://resizing.flixster.com/UDU4pZwNBSpIm5PRN6hOFf0hToA=/ems.cHJkLWVtcy1hc3NldHMvdHZzZXJpZXMvUlRUVjM0MzEzMy53ZWJw',
-  'img/imagen2.jpg',
+  '<source src=img/imagen2.jpg" type="img/jpg">',
   'img/imagen3.jpg',
   'img/imagen4.jpg',
   'img/imagen5.jpg',
