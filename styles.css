@@ -1,0 +1,90 @@
+/* Fondo de pantalla */
+body {
+    margin: 0;
+    overflow: hidden;
+    font-family: Arial, sans-serif;
+  }
+  
+  .background {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: url('/322/img/951985.jpg') no-repeat center center fixed;
+    background-size: cover;
+    z-index: -1;
+  }
+  
+  /* Reproductor de audio */
+  .audio-player {
+    position: fixed;
+    bottom: 10px;
+    left: 10px;
+    background: rgba(0, 0, 0, 0.7);
+    padding: 10px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    z-index: 100;
+  }
+  
+  .audio-player audio {
+    width: 300px;
+  }
+  
+  .audio-player button {
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 5px 10px;
+    cursor: pointer;
+  }
+  
+  .audio-player button:hover {
+    background-color: #45a049;
+  }
+  
+  /* Contenedor de imágenes */
+  #image-container {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    z-index: 1;
+  }
+  
+  .image {
+    position: absolute;
+    width: 80px;
+    height: 80px;
+    cursor: pointer;
+    transition: transform 0.3s ease;
+  }
+  /* Asegurar que el contenedor de las imágenes ocupe toda la pantalla */
+#image-container {
+    position: relative;
+    width: 100%;
+    height: 100vh;  /* Altura completa de la ventana del navegador */
+    overflow: hidden; /* Ocultar cualquier cosa que se desborde */
+  }
+  
+  /* Estilos para las imágenes */
+  .image {
+    position: absolute;
+    width: 220px; /* Establecer un tamaño más grande para las imágenes */
+    height: auto; /* Mantener la proporción original de la imagen */
+    border: none; /* Eliminar bordes */
+    margin: 0; /* Eliminar márgenes */
+    padding: 0; /* Eliminar relleno */
+    box-shadow: none; /* Eliminar cualquier sombra alrededor */
+  }
+  
+  /* Opcional: Puedes agregar un efecto de transición para el movimiento de las imágenes */
+  .image {
+    transition: transform 50s ease-in-out;
+  }
+  
+  
