@@ -106,12 +106,12 @@ const imageLinks = [
 // Crear y posicionar dinámicamente las imágenes
 for (let i = 0; i < totalImages; i++) {
   // Crear elemento <img>
-  const img = document.createElement('img2');
-  img.src = imageURLs[img]; // Asignar la ruta de la imagen desde el array
+  const img = document.createElement('img');
+  img.src = imageURLs[i]; // Asignar la ruta de la imagen desde el array
   img.alt = `Imagen ${i + 1}`;
   img.className = `image image-${i + 1}`; // Asignar clases dinámicamente
   img.setAttribute('data-link', imageLinks[i]); // Asignar el enlace fijo de cada imagen
-  imageContainer.appendChild(img2);
+  imageContainer.appendChild(img);
 }
 
 // Seleccionar todas las imágenes generadas
