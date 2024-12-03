@@ -5,7 +5,7 @@ const totalImages = 30; // 30 imágenes
 const imageContainer = document.getElementById('image-container');
 
 // Array de rutas de imágenes (asegúrate de tener todas las imágenes en la carpeta 'img')
-const img = [
+const imageURL = [
   '/img/imagen1.jpg',
   'https://drive.google.com/file/d/1LVCB6pMbzwaAntzCYkLReT6t_lth0kG9/view?usp=drive_link',
   'https://drive.google.com/file/d/1uxveS-t31DqjOul6VomC4Uof5a-2LWFi/view?usp=drive_link',
@@ -35,7 +35,7 @@ const img = [
   'https://drive.google.com/file/d/1dUExnsGehbcUapYvcwas_L7OkFF9Y4oV/view?usp=drive_link',
   'https://drive.google.com/file/d/1aRDpMOtdLdAi7HdYNmmuu4wryQS0yIXu/view?usp=drive_link',
   'https://drive.google.com/file/d/1_Q-nQa0j4U4m9H956XxKyFjOH9Uctx9S/view?usp=drive_link',
-  'https://drive.google.com/file/d/1p8HfZyF2P171E0TH-lYCZf1TOKiI1Svv/view?usp=drive_link'
+  'https://drive.google.com/file/d/1p8HfZyF2P171E0TH-lYCZf1TOKiI1Svv/view?usp=drive_link',
 ];
 
 // Array de enlaces fijos relacionados con cada imagen
