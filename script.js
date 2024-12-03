@@ -6,7 +6,7 @@ const imageContainer = document.getElementById('image-container');
 
 // Array de rutas de imágenes (asegúrate de tener todas las imágenes en la carpeta 'img')
 const imageURLs = [
-  'img/Imagen1.jpg',
+  'img/imagen1.jpg',
   'https://drive.google.com/file/d/1LVCB6pMbzwaAntzCYkLReT6t_lth0kG9/view?usp=drive_link',
   'https://drive.google.com/file/d/1uxveS-t31DqjOul6VomC4Uof5a-2LWFi/view?usp=drive_link',
   'https://drive.google.com/file/d/1rk1mbc8T3Qvu0pCMDYWIDhnIHNCiCH12/view?usp=drive_link',
