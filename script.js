@@ -6,16 +6,16 @@ const imageContainer = document.getElementById('image-container');
 
 // Array de rutas de imágenes (asegúrate de tener todas las imágenes en la carpeta 'img')
 const imageURLs = [
-  '/img/imagen1.jpg',
-  '/img/imagen2.jpg',
-  '/img/imagen3.jpg',
-  '/img/imagen4.jpg',
-  '/img/imagen5.jpg',
-  '/img/imagen6.jpg',
-  '/img/imagen7.jpg',
-  '/img/imagen8.jpg',
-  '/img/imagen9.jpg',
-  '/img/imagen10.jpg',
+  'img/imagen1.jpg',
+  'img/imagen2.jpg',
+  'img/imagen3.jpg',
+  'img/imagen4.jpg',
+  'img/imagen5.jpg',
+  'img/imagen6.jpg',
+  'img/imagen7.jpg',
+  'img/imagen8.jpg',
+  'img/imagen9.jpg',
+  'img/imagen10.jpg',
   'img/imagen11.jpg',
   'img/imagen12.jpg',
   'img/imagen13.jpg',
@@ -106,12 +106,12 @@ const imageLinks = [
 // Crear y posicionar dinámicamente las imágenes
 for (let i = 0; i < totalImages; i++) {
   // Crear elemento <img>
-  const img = document.createElement('img');
-  img.src = imageURLs[i]; // Asignar la ruta de la imagen desde el array
+  const img = document.createElement('img2');
+  img.src = imageURLs[img]; // Asignar la ruta de la imagen desde el array
   img.alt = `Imagen ${i + 1}`;
   img.className = `image image-${i + 1}`; // Asignar clases dinámicamente
   img.setAttribute('data-link', imageLinks[i]); // Asignar el enlace fijo de cada imagen
-  imageContainer.appendChild(img);
+  imageContainer.appendChild(img2);
 }
 
 // Seleccionar todas las imágenes generadas
