@@ -84,7 +84,7 @@ body {
   
   /* Opcional: Puedes agregar un efecto de transición para el movimiento de las imágenes */
   .image {
-    transition: transform 50s ease-in-out;
+    transition: transform 60s ease-in-out;
   }
   
   
