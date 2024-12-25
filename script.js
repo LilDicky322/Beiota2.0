@@ -6,7 +6,7 @@ const imageContainer = document.getElementById('image-container');
 
 // Array de rutas de imágenes (asegúrate de tener todas las imágenes en la carpeta 'img')
 const imageURLs = [
-  '/322/img/imagen1.png',
+  '/322/img/imagen1.jpg',
   '/322/img/imagen2.png',
   '/322/img/imagen3.png',
   '/322/img/imagen4.png',
